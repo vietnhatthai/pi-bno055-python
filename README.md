@@ -24,7 +24,7 @@ This is a Python interface for the Bosch BNO055 9-DOF IMU sensor, built on top o
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y python3-dev cmake build-essential libi2c-dev i2c-tools
+sudo apt-get install -y python3-dev pybind11-dev cmake build-essential libi2c-dev i2c-tools
 ```
 
 ## Raspberry Pi Setup
