@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Find Python
 find_package(Python 3 REQUIRED COMPONENTS Interpreter Development)
 
-# Add pybind11 from submodule
-add_subdirectory(extern/pybind11)
+# Find pybind11
+find_package(pybind11 REQUIRED)
 
 # Add the C source files
 set(BNO055_SOURCES
